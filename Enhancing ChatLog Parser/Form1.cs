@@ -123,7 +123,6 @@ namespace Enhancing_ChatLog_Parser
         {
             Form            TextInputerForm = new TextInputer();
 
-            //TextInputerForm.Parent = this;
             TextInputerForm.ShowDialog(this);
         }
     }

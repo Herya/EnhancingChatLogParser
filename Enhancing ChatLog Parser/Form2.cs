@@ -14,9 +14,11 @@ namespace Enhancing_ChatLog_Parser
     {
         public TextInputer()
         {
-            InitializeComponent();/*
-            inputSuccessTextBox.Text = ((ChatLogParser)this.Owner).toFindSuccess;
-            inputFailTextBox.Text = ((ChatLogParser)this.Owner).toFindFail;*/
+            InitializeComponent();
+            /*  To Change
+                inputSuccessTextBox.Text = ((ChatLogParser)this.Owner).toFindSuccess;
+                inputFailTextBox.Text = ((ChatLogParser)this.Owner).toFindFail;
+             */
         }
 
         private void saveButton_Click(object sender, EventArgs e)
